@@ -1,0 +1,28 @@
+{
+  "name": "keithtanzihao.github.io",
+  "version": "1.0.0",
+  "description": "Personal Page",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^5.1.1",
+    "concurrently": "^6.3.0",
+    "nodemon": "^2.0.13",
+    "react-bootstrap": "^2.0.0-rc.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"cd ktzh-frontend && set PORT=3006 && npm start\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keithtanzihao/keithtanzihao.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keithtanzihao/keithtanzihao.github.io/issues"
+  },
+  "homepage": "https://github.com/keithtanzihao/keithtanzihao.github.io#readme"
+}
